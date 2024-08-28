@@ -3,18 +3,18 @@ import matplotlib.pyplot as plt
 
 # Parâmetros do sistema Maglev
 mu0 = 4 * np.pi * 1e-7  # Permeabilidade do vácuo (H/m)
-N = 5000 # Número de espiras
-A = 0.01  # Área da seção transversal do ímã (m^2)
-m = 1000  # Massa do trem (kg)
+N = 4500 # Número de espiras
+A = 0.02  # Área da seção transversal do ímã (m^2)
+m = 1200  # Massa do trem (kg)
 g = 9.81  # Aceleração devido à gravidade (m/s^2)
 
 # Ganhos do controlador PD
-kp = 4500  # Ganho proporcional
-kd = 200  # Ganho derivativo
+kp = 500  # Ganho proporcional
+kd = 4000  # Ganho derivativo
 
 # Parâmetros de simulação
 z_ref = 0.1  # Altura de referência (10 cm)
-t_end = 10  # Tempo final da simulação (s)
+t_end = 100  # Tempo final da simulação (s)
 dt = 0.001  # Passo de tempo (s)
 
 
@@ -68,7 +68,6 @@ plt.plot(t, z, label='Altura do Trem (z)')
 plt.axhline(y=z_ref, color='r', linestyle='--', label='Altura de Referência (0.1 m)')
 plt.xlabel('Tempo (s)')
 plt.ylabel('Altura (m)')
-plt.title('Simulação da Altura do Trem Maglev com Controle PD usando RK4')
 plt.legend()
 plt.grid(True)
 plt.show()

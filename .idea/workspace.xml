@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="783c6677-089e-49ee-b11c-c241cd984844" name="Changes" comment="primeiro">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maglev.pdf" afterDir="false" />
+    <list default="true" id="783c6677-089e-49ee-b11c-c241cd984844" name="Changes" comment="10 cm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maglev.py" beforeDir="false" afterPath="$PROJECT_DIR$/maglev.py" afterDir="false" />
     </list>
@@ -83,7 +81,7 @@
       <workItem from="1724538809462" duration="431000" />
       <workItem from="1724592505685" duration="2182000" />
       <workItem from="1724810038274" duration="660000" />
-      <workItem from="1724848593173" duration="7179000" />
+      <workItem from="1724848593173" duration="13836000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro">
       <option name="closed" value="true" />
@@ -93,7 +91,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724503483242</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="10 cm">
+      <option name="closed" value="true" />
+      <created>1724863405681</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724863405681</updated>
+    </task>
+    <task id="LOCAL-00003" summary="10 cm">
+      <option name="closed" value="true" />
+      <created>1724863452459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724863452459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,9 +115,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro" />
-    <option name="LAST_COMMIT_MESSAGE" value="primeiro" />
+    <MESSAGE value="10 cm" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 cm" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/maglev$maglev.coverage" NAME="maglev Coverage Results" MODIFIED="1724863287907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/maglev$maglev.coverage" NAME="maglev Coverage Results" MODIFIED="1724873035551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
